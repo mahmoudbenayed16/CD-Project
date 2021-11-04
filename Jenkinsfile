@@ -9,7 +9,7 @@ pipeline {
                script{
                    checkout([$class: 'GitSCM', branches:[[name: '*/master']],
                       userReoteconfigs: [[
-                           credentialsId: "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", 
+                           credentialsId: "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", 
                            url: "https://github.com/mahmoudbenayed16/CD-Project.git"]]])
   
   
